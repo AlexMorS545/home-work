@@ -1,4 +1,45 @@
 body {
-   margin: 0;
-   font-family: Arial;
+  margin: 0;
+  font-family: Arial;
+}
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+.page-header {
+  width: 100%;
+  min-height: 323px;
+  background-color: #445161;
+  padding: 50px;
+}
+.page-header-wrp {
+  float: left;
+}
+.page-header-title {
+  font-size: 60px;
+  color: #ffffff;
+  text-shadow: 0.5px 0.9px 0 rgba(0, 0, 0, 0.3);
+}
+.page-header-list {
+  list-style-type: none;
+  font-size: 20px;
+  line-height: 1.8;
+  color: #ffffff;
+  text-shadow: 0.5px 0.9px 0 rgba(0, 0, 0, 0.3);
+}
+.page-header-list-item {
+  position: relative;
+}
+.page-header-list-item:before {
+  content: "";
+  display: block;
+  background-image: url(../img/check-icon.png);
+  background-size: contain;
+  position: absolute;
+  width: 25px;
+  height: 19px;
+  top: 8px;
+  left: -34px;
+}
+.main-header-product-photo {
 }
