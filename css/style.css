@@ -57,3 +57,72 @@ body {
   float: right;
   color: black;
 }
+.about-product {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 50px;
+  box-sizing: border-box;
+}
+.about-product::after {
+  content: "";
+  display: block;
+  width: 100%;
+  clear: both;
+}
+.about-product-wrp {
+  width: 649px;
+  float: left;
+}
+.about-product-title {
+  font-size: 30px;
+  color: #445161;
+}
+.about-product-text {
+  font-size: 16px;
+  color: #333333;
+  line-height: 1.5;
+}
+.about-product-video {
+  float: right;
+  display: block;
+  width: 430px;
+  height: 245px;
+  background-color: #445161;
+}
+.dignity {
+  background-color: #f5f5f5;
+  padding: 50px 50px 30px 50px;
+  text-align: center;
+}
+.dignity-title {
+  font-size: 30px;
+  color: #445161;
+}
+.dignity-wrap {
+  display: flex;
+  padding: 30px 0 0 0;
+}
+.dignity-list {
+  list-style-type: none;
+  font-size: 16px;
+  color: #333333;
+  line-height: 1.5;
+  text-align: left;
+  margin: 0;
+}
+.dignity-list-item {
+  position: relative;
+  margin: 0 0 20px 0;
+}
+.dignity-list-item::before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 4px;
+  left: -40px;
+  background-image: url(../img/dignity-icon.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
