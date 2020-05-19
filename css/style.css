@@ -81,6 +81,7 @@ body {
   font-size: 16px;
   color: #333333;
   line-height: 1.5;
+  margin: 20px 0px 0px 0px;
 }
 .about-product-video {
   float: right;
@@ -92,7 +93,7 @@ body {
 .dignity {
   width: 100%;
   background-color: #f5f5f5;
-  padding: 50px 50px 30px 50px;
+  padding: 50px;
   text-align: center;
   box-sizing: border-box;
 }
@@ -102,7 +103,7 @@ body {
 }
 .dignity-wrap {
   display: flex;
-  padding: 30px 0 0 0;
+  margin: 30px 0px 0px 0px;
   box-sizing: border-box;
 }
 .dignity-list {
@@ -117,6 +118,9 @@ body {
   position: relative;
   margin: 0 0 20px 0;
 }
+.dignity-list-item:last-child {
+  margin: 0;
+} 
 .dignity-list-item::before {
   content: "";
   display: block;
@@ -146,6 +150,11 @@ body {
   flex-flow: wrap;
 }
 .screenshot-discription {
+  margin: 0 0 20px 0;
+  width: 50%;
+}
+.screenshot-discription:nth-child(3),
+.screenshot-discription:nth-child(4){
   margin: 0;
   width: 50%;
 }
@@ -160,7 +169,7 @@ body {
 }
 .screen-discription-block {
   text-align: left;
-  padding: 0 15px 30px 0;
+  padding: 0 10px 0 0;
 }
 .screen-discription-block-title {
   font-size: 24px;
