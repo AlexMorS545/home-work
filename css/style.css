@@ -328,4 +328,188 @@ body {
   color: #ffffff;
   background-color: #445161;
 }
-
+.price-card-btn:active {
+  color: #445161;
+  background-color: #ffffff;
+}
+.page-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #445161;
+  padding: 50px;
+}
+.page-footer-title {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin: 0 0 30px 0;
+  font-size: 30px;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+.page-footer-form {
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 45px 0 0;
+}
+.page-footer-form-name[placeholder="Your name:"],
+.page-footer-form-email[placeholder="Your email:"],
+.page-footer-form-txt[placeholder="Your message:"] {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 0 20px 0;
+  padding: 12px 10px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #445162;
+  font-family: Arial;
+  font-weight: 400;
+  font-size: 16px;
+  color: #445162;
+}
+.page-footer-form-name[placeholder="Your name:"] {
+  text-transform: capitalize;
+}
+.page-footer-form-txt[placeholder="Your message:"] {
+  resize: none;
+}
+.page-footer-form-name[placeholder="Your name:"]:hover,
+.page-footer-form-email[placeholder="Your email:"]:hover,
+.page-footer-form-txt[placeholder="Your message:"]:hover {
+  border-color: #ffffff;
+  background-color: #ebebeb;
+}
+.page-footer-form-name[placeholder="Your name:"]:focus,
+.page-footer-form-email[placeholder="Your email:"]:focus,
+.page-footer-form-txt[placeholder="Your message:"]:focus {
+ border-color: #fb2323;
+}
+.page-footer-form-btn {
+  display: block;
+  margin: 0 auto;
+  width: 140px;
+  padding: 12px;
+  font-size: 16px;
+  color: #445162;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  background-color: #ffffff;
+  outline: none;
+}
+.page-footer-form-btn:hover {
+  cursor: pointer;
+  background-color: #445162;
+  color: #ffffff;
+}
+.page-footer-form-btn:active {
+  background-color: #ffffff;
+  color: #445162;
+}
+.page-footer-contact {
+  width: 250px;
+}
+.page-footer-contact-social {
+  display: block;
+  position: relative;
+  text-decoration: none;
+  font-size: 16px;
+  color: #ffffff;
+  margin: 0 0 30px 0;
+  padding: 0 0 0 35px;
+}
+.page-footer-contact-social:hover {
+  text-decoration: underline;
+}
+.social1::before {
+  content: "";
+  display: block;
+  width: 25px;
+  height: 25px;
+  background-image: url(../img/skype-icon.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  top: -3px;
+}
+.social2::before {
+  content: "";
+  display: block;
+  width: 25px;
+  height: 25px;
+  background-image: url(../img/icq-icon.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  top: -3px;
+}
+.social3::before {
+  content: "";
+  display: block;
+  width: 25px;
+  height: 25px;
+  background-image: url(../img/email-icon.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 1px;
+  top: -3px;
+}
+.social4::before {
+  content: "";
+  display: block;
+  width: 25px;
+  height: 25px;
+  background-image: url(../img/phone-icon.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 2px;
+  top: -5px;
+}
+.page-footer-contact-icon {
+  display: flex;
+  flex-direction: row;
+}
+.page-footer-contact-link {
+  display: block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding: 8px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #445162;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 50%;
+  margin: 0 10px 0 0;
+}
+.page-footer-contact-link:hover {
+  background-color: #445162;
+  color: #ffffff;
+}
+.page-footer-contact-link:active {
+  background-color: #ffffff;
+  color: #445162;
+}
+.page-footer-copyright {
+  display: block;
+  width: 100%;
+  text-align: center;
+  background-color: #f5f5f5;
+  line-height: 2;
+  letter-spacing: 0.3px;
+  font-size: 12px;
+  color: #445162;
+  border: 1px solid #989898;
+  box-sizing: border-box;
+}
