@@ -420,63 +420,42 @@ body {
   text-decoration: none;
   font-size: 16px;
   color: #ffffff;
-  margin: 0 0 30px 0;
+  margin: 0 0 25px 0;
   padding: 0 0 0 35px;
+}
+.page-footer-contact-social::before {
+  content: "";
+  display: block;
+  width: 25px;
+  height: 25px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: 0;
+  top: -3px;
+}
+.page-footer-contact-social:nth-of-type(1):before {
+  background-image: url(../img/skype-icon.png);
+}
+.page-footer-contact-social:nth-of-type(2):before {
+  background-image: url(../img/icq-icon.png);
+}
+.page-footer-contact-social:nth-of-type(3):before {
+  background-image: url(../img/email-icon.png);
+}
+.page-footer-contact-social:nth-of-type(4):before {
+  background-image: url(../img/phone-icon.png);
+}
+.page-footer-contact-social:last-of-type {
+  margin: 0 0 35px 0;
 }
 .page-footer-contact-social:hover {
   text-decoration: underline;
 }
-.social1::before {
-  content: "";
-  display: block;
-  width: 25px;
-  height: 25px;
-  background-image: url(../img/skype-icon.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: absolute;
-  left: 0;
-  top: -3px;
-}
-.social2::before {
-  content: "";
-  display: block;
-  width: 25px;
-  height: 25px;
-  background-image: url(../img/icq-icon.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: absolute;
-  left: 0;
-  top: -3px;
-}
-.social3::before {
-  content: "";
-  display: block;
-  width: 25px;
-  height: 25px;
-  background-image: url(../img/email-icon.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: absolute;
-  left: 1px;
-  top: -3px;
-}
-.social4::before {
-  content: "";
-  display: block;
-  width: 25px;
-  height: 25px;
-  background-image: url(../img/phone-icon.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: absolute;
-  left: 2px;
-  top: -5px;
-}
 .page-footer-contact-icon {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 .page-footer-contact-link {
   display: block;
@@ -491,7 +470,6 @@ body {
   border: 1px solid #ffffff;
   box-sizing: border-box;
   border-radius: 50%;
-  margin: 0 10px 0 0;
 }
 .page-footer-contact-link:hover {
   background-color: #445162;
